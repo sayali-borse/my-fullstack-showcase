@@ -63,7 +63,7 @@ const HeroSection = () => {
             View My Work
           </a>
           <a
-            href="/resume.pdf"
+            href="../public/CV.pdf"
             download
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg border border-border text-foreground hover:border-primary hover:text-primary transition-colors"
           >
