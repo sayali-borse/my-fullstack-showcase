@@ -36,7 +36,7 @@ const HeroSection = () => {
           <br/>
          
 
-          <span className="text-foreground font-normal space-x-0"> Full stack Developer</span>
+          <span className="text-foreground font-normal space-x-0"> FullStack Developer</span>
         </motion.h1>
 
         <motion.p
@@ -48,7 +48,7 @@ const HeroSection = () => {
           I craft beautiful, performant web experiences with modern technologies.
           From pixel-perfect frontends to robust backends.
         </motion.p>
-  <br/>
+  <br/> <br/> <br/>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -77,8 +77,9 @@ const HeroSection = () => {
           transition={{ delay: 1.2 }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
+          
           <a href="#about" className="text-muted-foreground hover:text-primary transition-colors animate-float">
-            <ArrowDown size={20} />
+            <ArrowDown size={40} />
           </a>
         </motion.div>
       </div>
