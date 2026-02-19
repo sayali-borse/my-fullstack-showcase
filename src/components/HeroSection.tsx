@@ -53,8 +53,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
-          className="flex gap-4 justify-center"
+          className="flex gap-8 justify-center"
         >
+        
           <a
             href="#projects"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity glow-pink"
@@ -76,7 +77,7 @@ const HeroSection = () => {
           className="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
           <a href="#about" className="text-muted-foreground hover:text-primary transition-colors animate-float">
-            <ArrowDown size={24} />
+            <ArrowDown size={20} />
           </a>
         </motion.div>
       </div>

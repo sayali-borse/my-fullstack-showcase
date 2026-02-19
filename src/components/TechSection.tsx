@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const techs = ["JavaScript", "HTML", "Tailwind CSS", "TypeScript", "React", "Node.js"];
+const techs = ["React","JavaScript", "HTML", "Tailwind CSS", "TypeScript" , "Node.js", "Express.Js","Redux", "RestAPI","MangoBD"];
 
 const TechSection = () => {
   return (

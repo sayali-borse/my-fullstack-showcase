@@ -3,18 +3,18 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO, TechStart",
+    name: "Viral Makhwani",
+    role: "CEO, WibGip Agency",
     text: "Exceptional work! The website exceeded our expectations. Clean code, fast delivery, and great communication throughout the project.",
   },
   {
-    name: "Mike Chen",
-    role: "Product Manager, DigitalFlow",
+    name: "Yogendra Kumar",
+    role: "CEO, E9ogral Tech",
     text: "A true professional. The attention to detail and technical expertise resulted in a product that our users love. Highly recommended!",
   },
   {
-    name: "Emily Davis",
-    role: "Founder, CreativeHub",
+    name: "Manas kumar",
+    role: "Product manager, Wibgip",
     text: "Working with this developer was a game-changer. They transformed our vision into a stunning, high-performance web application.",
   },
 ];
