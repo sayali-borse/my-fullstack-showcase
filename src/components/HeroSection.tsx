@@ -31,9 +31,12 @@ const HeroSection = () => {
           transition={{ delay: 0.4, duration: 0.7 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight"
         >
-          <span className="text-foreground">Fullstack</span>
+          <span className="text-gradient-pink font-extrabold">Sayali Borse</span>
           <br />
-          <span className="text-gradient-pink">Developer</span>
+          <br/>
+         
+
+          <span className="text-foreground font-normal space-x-0"> Full stack Developer</span>
         </motion.h1>
 
         <motion.p
@@ -45,7 +48,7 @@ const HeroSection = () => {
           I craft beautiful, performant web experiences with modern technologies.
           From pixel-perfect frontends to robust backends.
         </motion.p>
-
+  <br/>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
